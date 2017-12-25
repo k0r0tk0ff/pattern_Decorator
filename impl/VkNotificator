@@ -1,0 +1,21 @@
+package com.company.impl;
+
+import com.company.notificator.Notificator;
+
+/**
+ * Created by korotkov_a_a on 25.12.2017.
+ */
+public class VkNotificator implements Notificator {
+
+    private Notificator notificator;
+    private String message = "VK message";
+
+    public VkNotificator(Notificator notificator) {
+        this.notificator = notificator;
+    }
+
+    @Override
+    public String getMessage() {
+        return notificator.getMessage() + message;
+    }
+}
