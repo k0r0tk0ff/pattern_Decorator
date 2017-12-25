@@ -1,6 +1,6 @@
-# pattern_Decorator
+  # pattern_Decorator
 
   Рассматривается паттерн "Декоратор". 
   
   Позволяет "оборачивать" объект другим объектом, тем самым расширяя функциональность обернутого.
-Классический пример - BufferedInputStream -- InputStream  
+  Классический пример - BufferedInputStream -- InputStream  
