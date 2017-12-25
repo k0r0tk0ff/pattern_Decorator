@@ -1,0 +1,15 @@
+package com.company.impl;
+
+import com.company.notificator.Notificator;
+
+/**
+ * Created by korotkov_a_a on 25.12.2017.
+ */
+public class NotificatorImpl implements Notificator {
+
+    String message = " Base message ";
+    @Override
+    public String getMessage() {
+        return message;
+    }
+}
